@@ -1,6 +1,6 @@
-class ApplicationController < ActionController::Base
-  def ask
-  end 
+class PagesController < ApplicationController
+def ask
+end 
 
 def answers 
   if params[:question] == 'I am going to work'
